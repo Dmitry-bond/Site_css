@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>ЭЛЕКТРО ПРЕСТИЖ</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="main-page">
+<header class="header">
+    <nav class="navbar-wrapper">
+        <button class="main-menu__button"
+                onclick="document.querySelector('.main-menu').classList.toggle('main-menu_expanded');" type="button">
+            <span class="main-menu__button-line">&nbsp;</span>
+            <span class="main-menu__button-line">&nbsp;</span>
+            <span class="main-menu__button-line">&nbsp;</span>
+        </button>
+        <ul class="main-menu">
+            <li><a class="menu-link" href="#">О Компании</a></li>
+            <li><a class="menu-link" href="#">Доставка</a></li>
+            <li><a class="menu-link" href="#">Оплата</a></li>
+            <li><a class="menu-link" href="#">Сервис</a></li>
+            <li><a class="menu-link" href="#">Возврат</a></li>
+            <li><a class="menu-link" href="#">Статьи</a></li>
+            <li><a class="menu-link" href="#">Контакты</a></li>
+        </ul>
+    </nav>
+    <div class="nav-panel">
+        <a class="logo" href="#"></a>
+        <div class="search-space">
+            <div class="search-icon"></div>
+            <input class="search-input" placeholder="Поиск по товарам" type="text">
+            <input class="search-button" type="button" value="Поиск">
+        </div>
+        <div class="nav-panel__strut"></div>
+        <div class="contact-info">
+            <div class="phone-number">8 (800) 707-99-24</div>
+            <div class="hours-work">9.00 - 20.00 ежедневно</div>
+        </div>
+        <div class="icon-panel">
+            <a class="icon-panel__item diagram diagram-before-start" href="#"> 0</a>
+            <a class="icon-panel__item like" href="#">6</a>
+            <a class="icon-panel__item basket" href="#">17</a>
+        </div>
+    </div>
+    <div>
+        <ul class="nav-products">
+            <li class="nav-products__item">
+                <a href="javascript:document.querySelector('.nav-products').classList.toggle('nav-products__expanded');void(0);"
+                   class="nav-products__link nav-products__link__main">Продукция<br>
+                    <div class="nav-products__link-logo"></div>
+                </a>
+            </li>
+            <li class="nav-products__item"><a class="nav-products__link" href="#">Стабилизаторы 220В</a></li>
+            <li class="nav-products__item"><a class="nav-products__link" href="#">Стабилизаторы 380В</a></li>
+            <li class="nav-products__item"><a class="nav-products__link" href="#">Генераторы 220В</a></li>
+            <li class="nav-products__item"><a class="nav-products__link" href="#">Генераторы 380В</a></li>
+            <li class="nav-products__item"><a class="nav-products__link" href="#">ИБП и батареи</a></li>
+            <li class="nav-products__item"><a class="nav-products__link" href="#">Прочая техника</a></li>
+            <li class="nav-products__item"><a class="nav-products__link" href="#">Услуги</a></li>
+            <li class="nav-products__item"><a class="nav-products__link nav-products__link__stocks" href="#">Акции</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <ul class="block-main-articles">
+            <li class="block-main-articles__item"><a class="block-main-articles__link" href="#">Главная</a></li>
+            <li></li>
+            <li class="block-main-articles__item"><a class="block-main-articles__link" href="#">Статьи</a></li>
+        </ul>
+    </div>
+</header>
+<div class="content">
+    <h1 class="pages-header">Полезная информация</h1>
+    <ul class="pages-top">
+        <li class="pages__item"><a class="pages__link" href="#">1</a></li>
+        <li class="pages__item"><a class="pages__link" href="#">2</a></li>
+        <li class="pages__item"><a class="pages__link" href="#">3</a></li>
+        <li class="pages__item"><a class="pages__link" href="#">4</a></li>
+        <li class="pages__item"><span class="pages__link" href="#">...</span></li>
+        <li class="pages__item"><a class="pages__link" href="#">10</a></li>
+    </ul>
+    <div class="articles-list">
+        <article class="block-article">
+            <a class="article" href="#">
+                <img class="article__image" src="img/1.png">
+                <h3 class="article__header">Как это работает и зачем необходим стабилизатор напряжения</h3>
+                <p class="article__text">Стабилизаторы ЭНЕРГОТЕХ &mdash; это устройства, которые разработаны с учетом
+                    реальных условий
+                    отечественных сетей электропитания, и способны удовлетворить требования самого изысканного
+                    потребителя.</p>
+            </a>
+        </article>
+        <article class="block-article">
+            <a class="article" href="#">
+                <img class="article__image" src="img/1.png">
+                <h3 class="article__header">Как это работает и зачем необходим стабилизатор напряжения</h3>
+                <p class="article__text">Стабилизаторы ЭНЕРГОТЕХ &mdash; это устройства, которые разработаны с учетом
+                    реальных условий
+                    отечественных сетей электропитания, и способны удовлетворить требования самого изысканного
+                    потребителя.</p>
+            </a>
+        </article>
+        <article class="block-article">
+            <a class="article" href="#">
+                <img class="article__image" src="img/1.png">
+                <h3 class="article__header">Как это работает и зачем необходим стабилизатор напряжения</h3>
+                <p class="article__text">Стабилизаторы ЭНЕРГОТЕХ &mdash; это устройства, которые разработаны с учетом
+                    реальных условий
+                    отечественных сетей электропитания, и способны удовлетворить требования самого изысканного
+                    потребителя.</p>
+            </a>
+        </article>
+        <article class="block-article">
+            <a class="article" href="#">
+                <img class="article__image" src="img/1.png">
+                <h3 class="article__header">Как это работает и зачем необходим стабилизатор напряжения</h3>
+                <p class="article__text">Стабилизаторы ЭНЕРГОТЕХ &mdash; это устройства, которые разработаны с учетом
+                    реальных условий
+                    отечественных сетей электропитания, и способны удовлетворить требования самого изысканного
+                    потребителя.</p>
+            </a>
+        </article>
+        <article class="block-article">
+            <a class="article" href="#">
+                <img class="article__image" src="img/1.png">
+                <h3 class="article__header">Как это работает и зачем необходим стабилизатор напряжения</h3>
+                <p class="article__text">Стабилизаторы ЭНЕРГОТЕХ &mdash; это устройства, которые разработаны с учетом
+                    реальных условий
+                    отечественных сетей электропитания, и способны удовлетворить требования самого изысканного
+                    потребителя.</p>
+            </a>
+        </article>
+        <article class="block-article">
+            <a class="article" href="#">
+                <img class="article__image" src="img/1.png">
+                <h3 class="article__header">Как это работает и зачем необходим стабилизатор напряжения</h3>
+                <p class="article__text">Стабилизаторы ЭНЕРГОТЕХ &mdash; это устройства, которые разработаны с учетом
+                    реальных условий
+                    отечественных сетей электропитания, и способны удовлетворить требования самого изысканного
+                    потребителя.</p>
+            </a>
+        </article>
+    </div>
+    <ul class="pages-bottom">
+        <li class="pages__item"><a class="pages__link" href="#">1</a></li>
+        <li class="pages__item"><a class="pages__link" href="#">2</a></li>
+        <li class="pages__item"><a class="pages__link" href="#">3</a></li>
+        <li class="pages__item"><a class="pages__link" href="#">4</a></li>
+        <li class="pages__item"><span class="pages__link" href="#">...</span></li>
+        <li class="pages__item"><a class="pages__link" href="#">10</a></li>
+    </ul>
+</div>
+
+<footer class="footer article-page__footer">
+
+    <div class="address-block footer__address">
+        <address class="address-block__addr">121471, г. Москва ул. Рябиновая 55 стр. 28</address>
+        <a class="address-block__email" href="mailto:prestizh06@mail.ru">prestizh06@mail.ru</a>
+        <div class="address-block__phone">8(800)707-99-24</div>
+        <a class="address-block__link" href="#">контакты</a>
+    </div>
+
+    <div class="operating-schedule footer__operating-schedule">
+        <div class="operating-schedule__header">Режим работы:</div>
+        <div class="operating-schedule__item">Пн&ndash;чт c 8.00 до 19.00</div>
+        <div class="operating-schedule__item">Пт c 8.00 до 17.00</div>
+        <div class="operating-schedule__item">Сб c 10.00 до 15.00</div>
+        <div class="operating-schedule__item">Вс (по предварительной договоренности).</div>
+    </div>
+
+    <div class="footer-links footer__footer-links">
+        <a class="footer-links__item" href="#">О компании</a>
+        <a class="footer-links__item" href="#">Оплата</a>
+        <a class="footer-links__item" href="#">Акции</a>
+        <a class="footer-links__item" href="#">Сервис</a>
+        <a class="footer-links__item" href="#">Доставка</a>
+        <a class="footer-links__item" href="#">Возврат</a>
+        <a class="footer-links__item footer-links__item_long" href="#">Политика обработки персональных данных</a>
+    </div>
+
+    <a class="website-promotion" href="#">Разработка<br> и продвижение сайта</a>
+
+</footer>
+</body>
+</html>
